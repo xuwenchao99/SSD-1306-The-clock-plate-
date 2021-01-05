@@ -1,0 +1,27 @@
+--cpu Cortex-M3
+"final_production_2\startup_stm32f103x6.o"
+"final_production_2\oled.o"
+"final_production_2\spi.o"
+"final_production_2\main.o"
+"final_production_2\stm32f1xx_it.o"
+"final_production_2\stm32f1xx_hal_msp.o"
+"final_production_2\stm32f1xx_hal_gpio_ex.o"
+"final_production_2\stm32f1xx_hal_spi.o"
+"final_production_2\stm32f1xx_hal_spi_ex.o"
+"final_production_2\stm32f1xx_hal_tim.o"
+"final_production_2\stm32f1xx_hal_tim_ex.o"
+"final_production_2\stm32f1xx_hal_uart.o"
+"final_production_2\stm32f1xx_hal.o"
+"final_production_2\stm32f1xx_hal_rcc.o"
+"final_production_2\stm32f1xx_hal_rcc_ex.o"
+"final_production_2\stm32f1xx_hal_gpio.o"
+"final_production_2\stm32f1xx_hal_dma.o"
+"final_production_2\stm32f1xx_hal_cortex.o"
+"final_production_2\stm32f1xx_hal_pwr.o"
+"final_production_2\stm32f1xx_hal_flash.o"
+"final_production_2\stm32f1xx_hal_flash_ex.o"
+"final_production_2\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "Final_Production_2\Final_Production_2.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Final_Production_2.map" -o Final_Production_2\Final_Production_2.axf
